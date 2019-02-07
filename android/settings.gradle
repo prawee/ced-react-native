@@ -1,0 +1,3 @@
+rootProject.name = 'ced_react_native'
+
+include ':app'
