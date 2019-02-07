@@ -1,4 +1,4 @@
-package com.ced_react_native;
+package com.react_native;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "ced_react_native";
+        return "react_native";
     }
 }

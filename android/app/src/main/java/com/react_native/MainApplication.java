@@ -1,4 +1,4 @@
-package com.ced_react_native;
+package com.react_native;
 
 import android.app.Application;
 
