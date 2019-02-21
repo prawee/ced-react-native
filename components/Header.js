@@ -13,8 +13,19 @@ import { View, Text } from 'react-native';
 //   </View>;
 // export default Menu;
 
+const styles = {
+  textStyle: {
+    fontSize: 50,
+    color: 'white'
+  },
+  viewStyle: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20
+  }
+};
 
 export default () => 
-  <View>
-    <Text style={{ fontSize: 50, color: 'blue' }}>Menu</Text>
+  <View style={styles.viewStyle}>
+    <Text style={styles.textStyle}>Menu</Text>
   </View>;
