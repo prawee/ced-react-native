@@ -16,12 +16,13 @@ import { View, Text } from 'react-native';
 const styles = {
   textStyle: {
     fontSize: 50,
-    color: 'white'
+    color: 'black'
   },
   viewStyle: {
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20
+    padding: 20,
+    backgroundColor: 'white'
   }
 };
 
