@@ -26,7 +26,7 @@ const styles = {
   }
 };
 
-export default () => 
+export default (props) => 
   <View style={styles.viewStyle}>
-    <Text style={styles.textStyle}>Menu</Text>
+    <Text style={styles.textStyle}>{props.title}</Text>
   </View>;
