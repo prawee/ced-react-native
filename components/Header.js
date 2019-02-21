@@ -22,7 +22,11 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    elevation: 2,
+    position: 'relative'
   }
 };
 
