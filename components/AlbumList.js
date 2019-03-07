@@ -1,6 +1,7 @@
 // import library
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text } from 'react-native';
+import Axios from 'axios';
 
 // write component
 // const AlbumList = () => 
@@ -13,6 +14,8 @@ class AlbumList extends React.Component {
     state = { albums: [] };
     componentWillMount() {
         console.log('componentWillMount is called');
+        Axios.get('http://rallycoding.herokuapp.com/api/music_albums')
+            .then(response => console.log(response.data));
     }
     render() {
         console.log('render is called');
