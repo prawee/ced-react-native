@@ -1,6 +1,6 @@
 // import library
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
 // write component
 // const AlbumList = () => 
@@ -10,11 +10,17 @@ import { View, Text } from 'react-native';
 //         </Text>
 //     </View>;
 class AlbumList extends React.Component {
+    state = { albums: [] };
+    componentWillMount() {
+        console.log('componentWillMount is called');
+    }
     render() {
+        console.log('render is called');
+        console.log(this.state.albums);
         return (
             <View>
-                <Text style={{ color: 'white', fontSize: 50 }}>
-                    AlbumList
+                <Text style={{ color: 'white', fontSize: 50 }}>              
+                    {this.state.albums}
                 </Text>
             </View>
         );
